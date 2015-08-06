@@ -14,18 +14,14 @@
     "LICENSE"
   ],
   "dependencies": {
-    "react-attrs-map": "0.1.x",
+    "react-attrs-filter": "0.1.x",
     "component-uid": "0.0.x"
-  },
-  "peerDependencies": {
-    "react": "0.13.x",
-    "@yummies/yummies": "0.12.x"
   },
   "devDependencies": {
     "husky": "0.9.x",
-    "eslint": "0.24.x",
+    "eslint": "1.0.x",
     "babel-eslint": "4.0.x",
-    "eslint-plugin-babel": "1.2.x"
+    "eslint-plugin-babel": "2.0.x"
   },
   "scripts": {
     "lint": "eslint --ext .es6 components/",
